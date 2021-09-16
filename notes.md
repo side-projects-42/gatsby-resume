@@ -38,7 +38,7 @@ Edit `config.js` to put up your details
 
 ```javascript
 module.exports = {
-  siteTitle: 'Gatsby Starter Resume', // <title>
+  siteTitle: 'Bryan Guner Resume', // <title>
   ...
   firstName: 'Bryan',
   lastName: 'Guner',

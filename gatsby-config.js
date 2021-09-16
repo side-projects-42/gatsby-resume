@@ -4,6 +4,17 @@ module.exports = {
   pathPrefix: config.pathPrefix,
   siteMetadata: {
     title: config.siteTitle,
+    siteTitle: 'Bryan Guner Resume', // <title>
+    firstName: 'Bryan',
+    lastName: 'Guner',
+    // social
+    socialLinks: [
+      {
+        icon: 'fa-github',
+        name: 'Github',
+        url: 'https://github.com/bgoonz',
+      },
+    ],
   },
   plugins: [
     'gatsby-plugin-react-helmet',
